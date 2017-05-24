@@ -19,13 +19,14 @@ def fetchLicenceView():
     display_about_view()
 
 licence_btn = Button(root, text="Licencia", command=fetchLicenceView, bg = "#000000", fg = "#ffffff", width = 50, height = 5)
-licence_btn.place(x=35,y=180)
+licence_btn.place(x=35,y=90)
 
 def fetchAboutView():
     display_about_view()
 
 licence_btn = Button(root, text="About", command=fetchAboutView, bg = "#000000", fg = "#ffffff", width = 50, height = 5)
 licence_btn.place(x=35,y=180)
+
 root.mainloop()
 
 
