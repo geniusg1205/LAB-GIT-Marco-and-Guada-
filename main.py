@@ -15,3 +15,6 @@ welcome_lbl = Label(root, text = "Bienvenidos al taller de GIT", font = ("calibr
 welcome_lbl.place(x = 20, y = 20)
  
 root.mainloop()
+
+
+#LOL XD
